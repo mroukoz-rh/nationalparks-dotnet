@@ -23,7 +23,7 @@ namespace NationalParks.Controllers
         [HttpGet]
         public ActionResult<string> Welcome()
         {
-            return "Welcome to the National Parks data service.";
+            return "ARO People: Welcome to the National Parks data service.";
         }
 
         [Route("ws/data/all")]
@@ -42,7 +42,7 @@ namespace NationalParks.Controllers
             var jsonData = new
             {
                 id = "nationalparks",
-                displayName = "National Parks ARO (C#)",
+                displayName = "National Parks (C#)",
                 center = new
                         {
                             latitude = 47.039304,
